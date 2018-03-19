@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [crm Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="amazon.qa.ExtentReports.ExtentReportListener"/>
+  </listeners>
+  <test name="Free CRM Application Test(failed)">
+    <classes>
+      <class name="amazon.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="LoginPage_TitleTest"/>
+          <include name="crmLogo_ImageTest"/>
+        </methods>
+      </class> <!-- amazon.qa.testcases.LoginPageTest -->
+      <class name="amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+          <include name="verifyContactsLinkTest"/>
+          <include name="verifyUsernameTest"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- amazon.qa.testcases.HomePageTest -->
+      <class name="amazon.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="selectContactsTest"/>
+          <include name="setUp"/>
+          <include name="selectMultipleContactsTest"/>
+          <include name="validateCreateNewContact"/>
+          <include name="TearDown"/>
+          <include name="verifyContactsPageLabelTest"/>
+        </methods>
+      </class> <!-- amazon.qa.testcases.ContactsPageTest -->
+    </classes>
+  </test> <!-- Free CRM Application Test(failed) -->
+</suite> <!-- Failed suite [crm Application Test Automation Test Suite] -->

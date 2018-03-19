@@ -1,0 +1,10 @@
+amazon\qa\pages\SignupPage.class
+amazon\qa\pages\TasksPage.class
+amazon\qa\ExtentReports\ExtentReportListener.class
+amazon\qa\util\WebDriverListener.class
+amazon\qa\pages\LoginPage.class
+amazon\qa\pages\ContactsPage.class
+amazon\qa\pages\HomePage.class
+amazon\qa\base\TestBase.class
+amazon\qa\pages\DealsPage.class
+amazon\qa\util\TestUtil.class
